@@ -1,3 +1,114 @@
-h1{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+body{
+    background-image: url(https://images.unsplash.com/photo-1505771215590-c5fa0aec29b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGxpZ2h0fGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
+header{
+    position: relative;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar h1{
+    font-size: 30px;
+    font-weight: 20px;
+}
+.navbar h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    float: right;
+    color: brown;
+    background-color: beige;
+    flex-direction: row-reverse;
+}
+
+.image1{
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    margin-top: 150px;
+    border: 10px solid gray ;
+}
+
+ .info{
+    
+    margin-left: 150px;
+    width: 500px;
+    
+ }
+ .info h1{
+    margin: 5px 0;
+   font-size: 30px;
+   color: rgb(161, 161, 231);
+   font-family: "Hind Siliguri", sans-serif;
+ }
+ .info h2{
+    font-family: "Bebas Neue", sans-serif;
+    color: burlywood;
+ }
+ footer{
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: 50px;
+    font-size: 17px;
+ }
+ .container{
+    display: flex;
+    padding: 40px;
+   border-radius: 14px;
+ }
+ .fa-brands, .fa-solid{
+    font-size: 40px;
+    display: block;
+    
+ }
+ .fa-youtube{
+    background-color: whitesmoke;
+    color: red;
+    padding: 2px;
+ }
+ .fa-instagram{
+    background-color: rgb(95, 10, 45);
+    color: wheat;
+    padding: 3px;
+ }
+ .fa-facebook{
+    background-color: white;
+    color: blue;
+    padding: 3px;
+ }
+ button{
+    background-color: brown;
+    color: white;
+    height: 80px;
+    width: 200px;
+    font-size: 15px;
+ }
+ .about-me{
+    background-color: gray;
+    
+ }
+ .about-me h1{
+    color: brown;
+    font-size: 40px;
+    font-weight: 70px;
+    text-align: center;
+ }
+ .about-me p{
+    text-align: center;
+ }
+ .contact-sec h3{
+    color: blueviolet;
+     
+ }
