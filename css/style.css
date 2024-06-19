@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+DE+Grund:wght@100..400&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+body{
     background-image: url(https://images.unsplash.com/photo-1505771215590-c5fa0aec29b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGxpZ2h0fGVufDB8fDB8fHww);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
 }
 header{
@@ -70,6 +72,7 @@ nav ul li{
     color: white;
     font-weight: 50px;
     font-size: 17px;
+    padding: 15px;
  }
  .container{
     display: flex;
@@ -98,15 +101,34 @@ nav ul li{
     color: blue;
     padding: 3px;
  }
- button{
+ #services{
     background-color: brown;
     color: white;
     height: 80px;
     width: 200px;
     font-size: 15px;
+    background-color: brown;
+    animation-name: explore;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes explore{
+   from{background-color: brown;}
+   to{background-color: yellowgreen;}
+    
+ }
+ 
+ #sample{
+   width: 100px;
+   height: 40px;
+   font-size: 11px;
+   color: antiquewhite;
+   background-color: rgb(161, 58, 58);
  }
  .about-me{
     background-color: gray;
+    margin-left: 100px;
+    margin-right: 100px;
     
  }
  .about-me h1{
@@ -123,6 +145,18 @@ nav ul li{
  }
  .contact-sec h3{
     color: blueviolet;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: 100px;
+   
      
+ }
+ .contact-sec{
+   padding: 20px;
+  
+ }
+ button:hover{
+   cursor: pointer;
+   
  }
  
