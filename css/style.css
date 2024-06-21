@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-image: url(https://images.unsplash.com/photo-1505771215590-c5fa0aec29b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGxpZ2h0fGVufDB8fDB8fHww);
     background-repeat: no-repeat;
@@ -10,10 +10,18 @@ body{
 header{
     position: relative;
 }
-.logo{
-    width: 100px;
-    height: 100px;
+.container h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+   
 }
+.navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+  
+}
+
 .navbar h1{
     font-size: 30px;
     font-weight: 20px;
@@ -28,6 +36,7 @@ nav ul li{
     padding: 10px;
     float: right;
     color: brown;
+    border-left: 3px solid black;
     
 }
 .active{
@@ -58,9 +67,23 @@ nav ul li{
  .info h1{
     margin: 5px 0;
    font-size: 30px;
-   color: rgb(161, 161, 231);
-   font-family: "Hind Siliguri", sans-serif;
+   color: rgb(75, 16, 16);
+   font-family: "Playfair Display", serif;
  }
+ .container{
+   display: flex;
+   flex-direction: row;
+  
+ }
+ .info .name{
+   font-size: x-large;
+   text-decoration: dotted;
+
+ }
+  .info h3{
+   color: rgb(116, 53, 53);
+   font-weight: 200px;
+  }
  .info h2{
     font-family: "Bebas Neue", sans-serif;
     color: burlywood;
@@ -68,7 +91,7 @@ nav ul li{
  footer{
     background-color: rgb(138, 60, 60);
     text-align: center;
-    line-height: 45px;
+    line-height: 1px;
     color: white;
     font-weight: 50px;
     font-size: 17px;
@@ -80,27 +103,40 @@ nav ul li{
    border-radius: 14px;
  }
  .fa-brands, .fa-solid{
-    font-size: 45px;
+    font-size: 40px;
     padding: 21px;
     display: flex;
+   
       
  }
+ 
+ 
  .fa-youtube{
     background-color: whitesmoke;
     color: red;
     padding: 2px;
+    border-radius: 15px;
+ }
     
+ 
+ .fa-phone-volume{
+   font-size: 20px;
+
  }
  .fa-instagram{
-    background-color: rgb(95, 10, 45);
-    color: wheat;
+    background-color: rgb(245, 236, 240);
+    color: rgb(128, 27, 27);
     padding: 3px;
+    border: 2px solid ;
+    border-radius: 15px;
  }
  .fa-facebook{
     background-color: white;
     color: blue;
     padding: 3px;
+    border-radius: 15px;
  }
+
  #services{
     background-color: brown;
     color: white;
@@ -125,38 +161,59 @@ nav ul li{
    color: antiquewhite;
    background-color: rgb(161, 58, 58);
  }
- .about-me{
+ #about-me{
     background-color: gray;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 20px;
     
  }
- .about-me h1{
+ #about-me h1{
     color: brown;
     font-size: 40px;
     font-weight: 70px;
     text-align: center;
-    font-family: "Playwrite AU NSW", cursive;
+    font-family: "Playwrite NZ", cursive;
+    text-decoration: underline 1.6px solid rgb(150, 54, 54);
  }
- .about-me p{
+ #about-me p{
     text-align: center;
-    font-size: 20px;
-    font-family: "Playwrite DE Grund", cursive;
+    font-size: 26px;
+    font-family: "Roboto Condensed", sans-seri
  }
- .contact-sec h3{
-    color: blueviolet;
+ #contact-sec h3{
+    color: brown;
     font-style: oblique;
     font-size: 30px;
     font-weight: 100px;
    
      
  }
- .contact-sec{
+ #contact-sec{
    padding: 20px;
+   
   
  }
  button:hover{
    cursor: pointer;
    
  }
- 
+ #send{
+   font-size: 20px;
+   background-color: rgb(233, 163, 163);
+   padding: 6px;
+   width: 100px;
+   height: 36px;
+ }
+ form{
+   padding: 3px;
+ }
+ label{
+   font-size: 20px;
+   font-style: italic;
+   
+ }
+ input {
+ height: 50px;
+ width: 180px;
+ }
